@@ -1,0 +1,131 @@
+body {
+  //background-image: url('../../assets/img/bg.jpg');
+  background: black;
+  height: 100vh;
+  object-fit: contain;
+}
+
+header{
+  padding-top: 10px;
+}
+
+.navbar{
+  padding-bottom: 10px;
+}
+
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-social{
+  position: relative;
+  float: right;
+  padding-right: 50px;
+  padding-bottom: -150px;
+}
+.navbar-brand {
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: "Varela Round";
+  text-decoration-line: line-through;
+  padding-left: 180px;
+}
+.navbar-brand {float:none;}
+
+.navbar-header a:hover{
+  text-decoration-line: none;
+  color: #ef8354;
+}
+
+.nav-item a {
+  color: whitesmoke  ;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-family: Monaco, "Lucida Console", monospace;
+  padding-bottom: 25px;
+  font-weight: bold;
+  transition:  all 0.3s ease-in-out 0s;
+}
+
+span{
+  color: #f9faf4;
+}
+
+.nav-item a:hover {
+  color: #ef8354;
+  text-decoration-line: line-through;
+  /*font-size: 16px;*/
+}
+
+.active a {
+  color: #ef8354 !important;
+}
+
+footer{
+  color: white ;
+  opacity: 60%;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+
+p{
+  position: relative;
+  font-size: 25px;
+  color: white ;
+  float: left;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+  font-family: "Varela Round";
+}
+
+.social-part i{
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.fa-github{
+  color: whitesmoke;
+}
+.fa-facebook-square{
+  color: whitesmoke;
+}
+.fa-instagram{
+  color: whitesmoke;
+}
+
+.fa-github:hover{
+  color: #ef8354;
+}
+.fa-facebook-square:hover{
+  color: #ef8354;
+}
+.fa-instagram:hover{
+  color: #ef8354;
+}
+
+.mainImg{
+  height: 90%;
+  width: 100%;
+  align-content: center;
+}
+
+img{
+  width: 100%;
+  align-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 80%;
+  object-fit: contain;
+}
+
+
+
+

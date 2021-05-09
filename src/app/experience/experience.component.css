@@ -1,0 +1,99 @@
+body {
+//background-image: url('../../assets/img/bg.jpg');
+  background: black;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.nav{
+  padding-top: 50px;
+}
+
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-header a:hover{
+  text-decoration-line: none;
+  color: #0d1321;
+}
+
+.nav-item a {
+  color: #1b1e21;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-family: Monaco, "Lucida Console", monospace;
+  padding-bottom: 25px;
+  font-weight: bold;
+  transition:  all 0.3s ease-in-out 0s;
+}
+
+span{
+  color: #1b1e21;
+}
+
+.nav-item a:hover {
+  color: #ef8354;
+  text-decoration-line: line-through;
+  /*font-size: 16px;*/
+}
+
+.active a {
+  color: #ef8354 !important;
+}
+
+.aboutMenu{
+  background: white;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.col-md-12{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+img{
+  width: 100%;
+  align-content: center;
+  padding-left: 150px;
+  padding-right: 100px;
+  height: 80%;
+  object-fit: contain;
+}
+
+.rightAboutPage{
+  margin: auto;
+  padding: 80px;
+  float: right;
+  justify-content: left;
+  width: 50%;
+  height: 100%;
+}
+.col-md-12{
+  padding: 20px;
+}
+
+.col-12{
+  padding: 24px;
+}
+
+p{
+  color: whitesmoke;
+  font-family: "Varela Round"
+}
+
+
+
+
+
