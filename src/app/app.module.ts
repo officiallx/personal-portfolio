@@ -7,13 +7,17 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ErrorComponent } from './error/error.component';
+import { WorksComponent } from './works/works.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainpageComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ErrorComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,

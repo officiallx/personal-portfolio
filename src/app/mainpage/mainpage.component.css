@@ -1,5 +1,4 @@
 body {
-  //background-image: url('../../assets/img/bg.jpg');
   background: black;
   height: 100vh;
   object-fit: contain;
@@ -31,6 +30,7 @@ header{
   font-family: "Varela Round";
   text-decoration-line: line-through;
   padding-left: 180px;
+  cursor: none;
 }
 .navbar-brand {float:none;}
 
@@ -89,6 +89,10 @@ p{
 .social-part i{
   padding-left: 25px;
   margin-top: 10px;
+}
+
+.social-part i:hover{
+  cursor: none;
 }
 
 .fa-github{

@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One');
 
+html {
+    cursor: none;
+  }
+
+#circularcursor {
+    background-color: transparent;
+    border:2px solid teal;    
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  li a:hover{
+    cursor: none;
+  }

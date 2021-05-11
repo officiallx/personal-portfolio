@@ -1,5 +1,4 @@
 body {
-  //background-image: url('../../assets/img/bg.jpg');
   background: whitesmoke;
   height: 100vh;
   object-fit: contain;
@@ -51,7 +50,7 @@ span{
 }
 
 .aboutMenu{
-  background: black;
+  background: #393e46;
   height: 100%;
   width: 50%;
   float: left;
@@ -63,11 +62,9 @@ span{
   margin: auto;
 }
 
-img{
+.col-md-12 img{
   width: 100%;
   align-content: center;
-  padding-left: 150px;
-  padding-right: 100px;
   height: 80%;
   object-fit: contain;
 }
@@ -79,6 +76,7 @@ img{
   justify-content: left;
   width: 50%;
   height: 100%;
+  overflow: scroll;
 }
 .col-md-12{
   padding: 20px;
@@ -90,6 +88,24 @@ img{
 
 p{
   font-family: "Varela Round"
+}
+
+.float-none{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.float-none img{
+  object-fit: contain;
+  margin-top: 50px;
+  border: 3px solid indianred;
+  border-radius: 50%;
+}
+
+.float-none img:hover{
+  border: 3px dotted indianred;
+  transition: 0.5ms ease-in-out 0.3ms;
 }
 
 
