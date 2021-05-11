@@ -18,7 +18,6 @@ export class WorksComponent implements OnInit {
         });
       })
     });
-
     var items = [],
   point = document.querySelector("svg").createSVGPoint();
 
