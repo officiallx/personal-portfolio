@@ -1,0 +1,132 @@
+body {
+  background: whitesmoke;
+  height: 100vh;
+  object-fit: contain;
+}
+
+svg {
+  display: block;
+  max-height: auto;
+  width: 90%;
+  margin: auto;
+}
+
+#click-container {
+  display: none;
+  position: relative;
+}
+
+@media only screen and (max-width: 47.98em) {
+  #click-container {
+    display: block;
+  }
+}
+
+h2 {
+  font-size: 1.500rem;
+  text-align: center;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.nav{
+  padding-top: 50px;
+}
+
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-header a:hover{
+  text-decoration-line: none;
+  color: #0d1321;
+}
+
+.nav-item a {
+  color: whitesmoke;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-family: Monaco, "Lucida Console", monospace;
+  padding-bottom: 25px;
+  font-weight: bold;
+  transition:  all 0.3s ease-in-out 0s;
+}
+
+span{
+  color: whitesmoke;
+}
+
+.nav-item a:hover {
+  color: #ef8354;
+  text-decoration-line: line-through;
+  /*font-size: 16px;*/
+}
+
+.active a {
+  color: #ef8354 !important;
+}
+
+.aboutMenu{
+  background: #393e46;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.col-md-12{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.col-md-12 img{
+  width: 100%;
+  align-content: center;
+  height: 72.5%;
+  object-fit: contain;
+}
+
+.rightAboutPage{
+  float: right;
+  width: 50%;
+  height: 100vh;
+  padding: 60px;
+}
+
+.col-12{
+  padding: 24px;
+  height: 57%;
+}
+p{
+  font-family: "Varela Round"
+}
+
+.btn:not(:disabled):not(.disabled){
+  cursor: none !important;
+  background-color: #0d1321;
+  color: whitesmoke;
+}
+
+.form-control:hover{
+  cursor: none;
+}
+
+input{
+  border-top: none;
+  border-bottom: #0d1321;
+  border-left: none;
+  border-right: none;
+}
+
+textarea{
+  border-top: none;
+  border-bottom: #0d1321;
+  border-left: none;
+  border-right: none;
+}

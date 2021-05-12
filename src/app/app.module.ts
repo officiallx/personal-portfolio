@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ErrorComponent } from './error/error.component';
 import { WorksComponent } from './works/works.component';
+import { ContactComponent } from './contact/contact.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { WorksComponent } from './works/works.component';
     AboutComponent,
     ExperienceComponent,
     ErrorComponent,
-    WorksComponent
+    WorksComponent,
+    ContactComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
