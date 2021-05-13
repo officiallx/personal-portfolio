@@ -1,8 +1,19 @@
-
 body
 {
   height: 100vh;
-  background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed;
+  
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      180deg, rgba(53,92,125,1) 0%, rgba(108,91,123,1) 66%, rgba(192,108,132,1) 100%
+    );
+
+    margin: auto;
+
+}
+
+a:hover{
+  cursor: none;
 }
 
 

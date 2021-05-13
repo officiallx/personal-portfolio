@@ -54,6 +54,15 @@ body {
     height: 100%;
     width: 50%;
     float: left;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      180deg, rgba(53,92,125,0.6) 0%, rgba(108,91,123,0.5) 66%, rgba(192,108,132,0.4) 100%
+    ),
+    url(../../assets/img/resume.jpg);
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
   }
   
   .col-md-12{
@@ -76,7 +85,7 @@ body {
     justify-content: left;
     width: 50%;
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
   }
   .col-md-12{
     padding: 20px;
