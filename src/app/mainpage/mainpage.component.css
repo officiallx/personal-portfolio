@@ -67,11 +67,11 @@ span{
 footer{
   color: white ;
   opacity: 60%;
-  padding-top: 25px;
   text-align: center;
   width: 100%;
-  font-size: 14px;
-  font-family: Monaco, "Lucida Console", monospace;
+  font-size: 12px;
+  font-family: "Varela Round";
+  background-color: black;
 }
 
 p{
@@ -97,20 +97,26 @@ p{
 .fa-github{
   color: whitesmoke;
 }
-.fa-facebook-square{
+.fa-pinterest{
   color: whitesmoke;
 }
 .fa-instagram{
+  color: whitesmoke;
+}
+.fa-behance{
   color: whitesmoke;
 }
 
 .fa-github:hover{
   color: #ef8354;
 }
-.fa-facebook-square:hover{
+.fa-pinterest:hover{
   color: #ef8354;
 }
 .fa-instagram:hover{
+  color: #ef8354;
+}
+.fa-behance:hover{
   color: #ef8354;
 }
 
